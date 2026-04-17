@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main() {
-    printf("Name: Sathvik\n");
-    printf("USN: YourUSN\n");
-    printf("Branch: AIML\n");
-    printf("College: YourCollege\n");
+    int a, b;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Sum = %d\n", a + b);
+    printf("Difference = %d\n", a - b);
+    printf("Product = %d\n", a * b);
+    printf("Division = %d\n", a / b);
+
     return 0;
 }
